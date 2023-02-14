@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Lato&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#272128 ;
+     font-family: 'Lato', sans-serif; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Lato&family=Rubik+Bubbles&display=swap');
+
+.custom-shape-divider-top-1672993214 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100wh;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1672993214 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1672993214 .shape-fill {
+    /* fill: #DEC9E2; */
+     fill: grey;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    flex-wrap: wrap;
+    
+}
+.image{
+    width: 400px;
+    height: 220px;
+    border: 2px ;
+    background-image: url('https://img.freepik.com/free-vector/relaxing-man-city-park-happy-guy-pet-owner-sitting-bench-with-earphones-listening-music-outdoor-holding-dog-leash-leisure-relaxation-with-music-concept_575670-2420.jpg?w=740&t=st=1673012737~exp=1673013337~hmac=a02a5afe5dbb8e72e4aa8abc0315785b96682bd256669dd30eec283cedd4dc44');
+    background-size: 400px 220px;
+    background-color:purple;
+    background-blend-mode:luminosity;
+    /* border-radius: 10% 10% 0 0; */
+    border-radius: 25px 25px 0 0;
+    
+}
+.order{
+    width: 400px;
+    height:370px;
+    border: 2px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius:0 0 10% 10% ; */
+    border-radius: 0 0 25px 25px;
+    background-color:rgb(237, 207, 207);
+    flex-wrap: wrap;
+}
+.plan{
+    display: flex;
+    border: 2px ;
+    width: 330px;
+    height: 70px;
+    justify-content: space-around;
+    background-color:#DEC9E2;
+    border-radius: 15px;
+
+    
+}
+.para{
+    text-align: center;
+    margin-left: 52px;
+    margin-right: 40px;
+    margin-top: -25px;
+    line-height: 25px;
+    word-spacing: 2px;
+    font-weight: bolder;
+    color: rgb(86, 79, 79);
+}
+.annual{
+    margin-top: 13px;
+    margin-left: -80px;
+
+
+}
+a{
+    margin-top: 25px;
+    margin-right: -28px;
+    color: purple;
+}
+.icon{
+    margin-top: 15px;
+    margin-left: -26px;
+}
+.cancel{
+    font-weight: bolder;
+    color:rgb(86, 79, 79);
+    margin-bottom: 30px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cancel:hover{
+    background-color: black;
+    color: #ede5ef;
+}
+.price{
+    font-weight: bold;
+    color: rgb(86, 79, 79);
+}
+.proceed{
+    background-color:purple;
+    width: 330px;
+    height: 30px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+ .proceed:hover{
+       background-color:#DEC9E2;;
+       color:purple ;
+} 
+
+</style>
+   
+</head>
+<body>
+    <div class="custom-shape-divider-top-1672993214">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="container">
+        <div class="image"></div>
+        <div class="order">
+          <div class="head"><h1>Order Summary</h1></div>
+          <div class="para">You can now listen to millions of songs audiobooks, and podcasts on any device anywhere you like!</div> 
+           <div class="plan"> 
+           <div class="icon"> <img src="https://cdn-icons-png.flaticon.com/512/1384/1384061.png" alt="music symbol" height="35px" width="35px"></div>
+             <div class="annual">
+                <div class="a"><strong>Annual Plan</strong></div>
+                <div class="price">$59.99/year</div>
+            </div> <a href="change.html">Change</a>
+           </div>
+           <a class="proceed" href="payment.html">Proceed to payment</a> 
+           
+           <div class="cancel">Cancel Order</div>
+            
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <style>
+        .container{
+           display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          flex-direction: column;
+          padding-top: 40px;
+        }
+       select{
+            width: 100%;
+       }
+        body{
+             background-color:white;
+        }
+        select{
+            background-color: rgb(12, 6, 15);
+            height: 30px;
+            border-radius: 30px;
+            font-weight: bolder;
+            font-size: larger;
+            color: white;
+        }
+        label{
+            font-weight: bolder;
+            font-size:x-large;
+            margin-bottom: 17px;
+            font-style: oblique;
+            }
+           .i{
+            margin-top: 90px;
+           } 
+    </style>
+</head>
+<body>
+     <div class="container">
+    <label for="pay"><h2>Payment Option</h2> </label>
+    <select name="link" id="pay" size="1" onchange="window.location.href=this.value;">
+        <option value="">Select option</option>
+        <!-- <option value="https://www.youtube.com/">select</option> -->
+        <option value="change.html">UPI</option>
+        <option value="Credit.html">Credit card</option>
+    </select> 
+    <div class="i">
+    <img src="https://img.freepik.com/free-vector/more-music-concept-illustration_114360-1066.jpg?w=900&t=st=1675401963~exp=1675402563~hmac=e3a3f0833ccdd530ee47661913310bfcf0451062147d58670a428226e973ecbf" alt="" height="400px" width="700px">
+    </div>
+
+</div>
+</body>
+</html>
+

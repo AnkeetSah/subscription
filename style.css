@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#ede5ef ;
+     font-family: 'Lato', sans-serif; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Lato&family=Rubik+Bubbles&display=swap');
+
+.custom-shape-divider-top-1672993214 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100wh;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1672993214 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1672993214 .shape-fill {
+    fill: #DEC9E2;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    flex-wrap: wrap;
+    
+}
+.image{
+    width: 400px;
+    height: 220px;
+    border: 2px ;
+    background-image: url('https://img.freepik.com/free-vector/relaxing-man-city-park-happy-guy-pet-owner-sitting-bench-with-earphones-listening-music-outdoor-holding-dog-leash-leisure-relaxation-with-music-concept_575670-2420.jpg?w=740&t=st=1673012737~exp=1673013337~hmac=a02a5afe5dbb8e72e4aa8abc0315785b96682bd256669dd30eec283cedd4dc44');
+    background-size: 400px 220px;
+    background-color:purple;
+    background-blend-mode:luminosity;
+    /* border-radius: 10% 10% 0 0; */
+    border-radius: 25px 25px 0 0;
+    
+}
+.order{
+    width: 400px;
+    height:370px;
+    border: 2px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius:0 0 10% 10% ; */
+    border-radius: 0 0 25px 25px;
+    background-color:rgb(237, 207, 207);
+    flex-wrap: wrap;
+}
+.plan{
+    display: flex;
+    border: 2px ;
+    width: 330px;
+    height: 70px;
+    justify-content: space-around;
+    background-color:#DEC9E2;
+    border-radius: 15px;
+
+    
+}
+.para{
+    text-align: center;
+    margin-left: 52px;
+    margin-right: 40px;
+    margin-top: -25px;
+    line-height: 25px;
+    word-spacing: 2px;
+    font-weight: bolder;
+    color: rgb(86, 79, 79);
+}
+.annual{
+    margin-top: 13px;
+    margin-left: -80px;
+
+
+}
+a{
+    margin-top: 25px;
+    margin-right: -28px;
+    color: purple;
+}
+.icon{
+    margin-top: 15px;
+    margin-left: -26px;
+}
+.cancel{
+    font-weight: bolder;
+    color:rgb(86, 79, 79);
+    margin-bottom: 30px;
+}
+.price{
+    font-weight: bold;
+    color: rgb(86, 79, 79);
+}
+.proceed{
+    background-color:purple;
+    width: 330px;
+    height: 30px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 25px;
+}
+.proceed:hover{
+       background-color:#DEC9E2;;
+       color:purple ;
+}
